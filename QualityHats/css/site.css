@@ -1,0 +1,406 @@
+﻿ /*
+* ==========================================================================
+* Global Start
+* ==========================================================================
+*/
+.carousel-inner{
+  width:100%;
+  max-height: 500px !important;
+}
+
+.form-group{
+
+    padding:20px;
+}
+ul li{
+    list-style: none;
+}
+h3.col-xs-12{
+    margin-top: -20px;
+
+}
+.center{
+    text-align: center;
+}
+h4.display-4{
+    font-weight:bold;
+}
+
+.btn-info{
+float: right;
+}
+
+.current span{
+    color:#55CBD2;
+
+}
+
+body {
+    font-size: 15px;
+    line-height: 24px;
+    background:#F8FAFF;
+
+}
+
+a {
+    color: #55CBD2;
+    text-decoration: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+
+a:hover { color: #888; text-decoration: none; }
+
+strong { font-weight: bold; }
+
+address {
+    margin-top: 28px;
+    }
+
+@media (min-width: 50px) and (max-width: 988px) {
+
+ address {
+    margin-top: 28px;
+    margin-left: 21px;
+    }
+
+}
+@media (min-width: 988px) and (max-width: 1200px) {
+
+ address {
+    margin-top: 28px;
+    margin-left: -58px;
+    }
+
+}
+
+ #infomsg
+ {
+    color: #c9302c;
+ }
+/*
+* ==========================================================================
+* Nav Pills
+* ==========================================================================
+*/
+.nav-pills > li.selected > a,
+.nav-pills > li.selected > a:hover,
+.nav-pills > li.selected > a:focus {
+  color: #ffffff;
+  background-color: #1bbd9b;
+}
+/*
+* ==========================================================================
+* Pills Centered
+* ==========================================================================
+*/
+.nav-pills-centered > .nav-pills {
+  text-align: center;
+}
+.nav-pills-centered > .nav-pills > li {
+  float: none;
+  display: inline;
+}
+.nav-pills-centered > .nav-pills > li > a,
+.nav-pills-centered > .nav-pills > li > span {
+  display: inline-block;
+  padding: 5px 14px;
+}
+.nav-pills-centered > .nav-pills > li > a.active,
+.nav-pills-centered > .nav-pills > li > span.active,
+.nav-pills-centered > .nav-pills > li > a.selected,
+.nav-pills-centered > .nav-pills > li > span.selected {
+  color: #ffffff;
+  background-color: #1bbd9b;
+}
+
+/*
+* ==========================================================================
+* Navbar
+* ==========================================================================
+*/
+.active{
+  background:#74B9B9 !important;
+  color: white;
+}
+.navbar {
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+/*
+* ==========================================================================
+* Navbar Nav Links
+* ==========================================================================
+*/
+.navbar-nav > li > a {
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/*
+* ==========================================================================
+* Brand / Project Name
+* ==========================================================================
+*/
+.navbar-brand {
+  z-index: 9999;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 0px;
+}
+.side-left{
+  background:#528C7C;
+  box-shadow: 3px 3px grey;
+  color: white;
+  padding: 30px;
+  letter-spacing: .9px;
+}
+@media (min-width: 800px){
+    .side-left{
+  height: 1248px;
+}
+ }
+
+.header h1 {
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+.header a.brand {
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    margin-top:5px;
+    display: inline-block;
+    width: 270px;
+    height: 96px;
+    padding: 30px 10px;
+    /*background: url(../img/logo.png) 20px center no-repeat; */
+}
+@media (min-width: 50px) and (max-width: 768px) {
+        .header a.brand {
+        width: 170px;
+        margin-top:-41px;
+        margin-top: -41px;
+        position: absolute;
+        font-size: 37px;
+     }
+ }
+
+.spacing{
+    margin-bottom: 80px;
+}
+
+.btn-sm{
+    margin-left: 21px;
+}
+
+/* ----- Footer ----- */
+footer{
+   margin-top:40px;
+   padding: 20px;
+   background: black;
+}
+
+footer h3 {
+    color: #dadada;
+    margin-bottom: 20px;
+}
+
+.footer-contact{
+    color: white;
+}
+
+
+/*Social Buttons */
+#social-icons{
+  font-size: 22px;
+}
+
+#social-icons .btn-group {
+    color: #55CBD2;
+    margin-right: 15px;
+}
+#social-icons .btn-group:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    color: #fff;
+    padding: 20px 0px 10px 0px;
+    background-color: rgb(23, 23, 23);
+}
+
+/*
+* ==========================================================================
+* Optional Carousel
+* ==========================================================================
+*/
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .carousel-caption {
+    font-size: 12px;
+    padding-bottom: 0px;
+    bottom: 2px;
+  }
+
+}
+@media (max-width: 767px) {
+  .carousel-caption {
+    font-size: 11px;
+    padding-bottom: 0;
+    bottom: 0;
+  }
+
+}
+
+.form-group {
+    width:65%;
+}
+
+/*
+* ==========================================================================
+* About & Contact Area
+* ==========================================================================
+*/
+.page-title {
+    padding:22px 0 2px 0px; margin:0 0 0 0;
+
+}
+
+.page-title h2 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #181818;
+    margin: 0 0 0 -1px;
+}
+
+.map1{
+    float:left;
+}
+
+.block-address{
+    float:left;
+    width:245px;
+}
+
+
+ /*
+ * ==========================================================================
+ * About Sub menu animation effect
+ * ==========================================================================
+ */
+ .sl-icon{
+     background-image: url("../images/Cover2/icon.png");
+     background-repeat: no-repeat;
+ }
+
+ /*ease-in-out*/
+ a, .sub-menu li, .menu > li:before {
+     -moz-transition: ease-in-out 0.5s;
+     -webkit-transition: ease-in-out 0.5s;
+     -o-transition: ease-in-out 0.5s;
+     -ms-transition: ease-in-out 0.5s;
+     transition: ease-in-out 0.5s;
+ }
+ /*delete division line first*/
+ .menu > li:first-child {
+     border-left: none;
+ }
+
+ /*delete division line end*/
+ .menu > li:last-child {
+     border-right: none;
+ }
+
+ /*Icon pattern for submenu*/
+ .sl-icon {
+     background-position: -14px -468px;
+     width: 12px;
+     height: 12px;
+     display: block;
+     top: 18px;
+     right: 3px;
+     position: absolute;
+ }
+
+ /*Icon position*/
+ .menu > li:hover .sl-icon {
+     background-position: -14px -480px;
+ }
+
+ /* Submenu pattern parameters */
+ .sub-menu {
+     position: absolute;
+     z-index: 1000;
+     min-width: 100%;
+     max-height: 0;
+     -webkit-perspective: 400px;
+     -moz-perspective: 400px;
+     -ms-perspective: 400px;
+     -o-perspective: 400px;
+     perspective: 400px;
+ }
+ /* Submenu list pattern parameters */
+ .sub-menu li {
+     text-align: center;
+     opacity: 0;
+     -webkit-transform: rotateY(90deg);
+     -moz-transform: rotateY(90deg);
+     -ms-transform: rotateY(90deg);
+     -o-transform: rotateY(90deg);
+     transform: rotateY(90deg);
+     border-top: 1px #fff solid;
+     border-bottom: 1px #ddd solid;
+     background-color: #f4f4f4;
+ }
+
+ /*submenu pattern list left*/
+ .sub-menu li:first-child {
+     border-top: none;
+ }
+
+ /*submenu pattern list right*/
+ .sub-menu li:last-child {
+     border-bottom: 5px #3d93de solid;
+ }
+ /*The content pattern of submenu*/
+ .sub-menu li a {
+     font-size: 14px;
+     height: 40px;
+     display: block;
+     padding: 12px 20px;
+     white-space: nowrap;
+     background-color: #f4f4f4;
+     color: #666;
+ }
+ /*The select model in submenu pattern*/
+ .sub-menu li a:hover {
+     background-color: #3d93de;
+     color: #fff;
+ }
+
+ /*For displaying submenu*/
+ .menu > li:hover .sub-menu li, .menu > li:focus .sub-menu li {
+     opacity: 1;
+     -webkit-transform: none;
+     -moz-transform: none;
+     -ms-transform: none;
+     -o-transform: none;
+     transform: none;
+ }
+ /*global setting for ul*/
+ ul {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     background: transparent;
+ }
